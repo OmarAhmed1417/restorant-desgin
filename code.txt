@@ -1,0 +1,412 @@
+                                       <HTMl>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>this is mybook store</title>
+    <meta name="omar ahmed" content="this our book store"/>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body> 
+<div class="logo">
+    <img src="/images/images/logo.webp" alt=""> 
+</div>
+    <div class="home">
+    <img src="/images/images/home-bg.webp" alt="" width="100%" height="100%">    
+    </div>
+    <div class="links">
+        <a href="/images/images/member-2.webp">Menu</a>
+        <a href="/images/images/member-2.webp">Categories</a>
+        <a href="/images/images/member-2.webp">Services</a>
+        <a href="/images/images/member-2.webp">Team</a>
+    </div>
+    <div class="header">
+        <h1>our<br><br>Passion<br><br>Delicious<br><br>Food</h1>
+    </div>
+    <div class="title"> <h1>Feauter</h1></div>
+
+    <div class="cards">
+        <div class="first"><p class="p1"> <strong> High Quality</strong> we serve the highest quality of prepared meals at a great values in a home -like and frindly enviroment</p> 
+        <div class="c1">01</div>
+        </div>
+        <div class="second"><p class="p2"><strong>Best Recipe</strong> we use cookies and similar tracking and storage tecnlogies on our site to enchange your user experience</p> 
+        <div class="c2">02</div>
+        </div>
+        <div class="thired"><p class="p3"><strong>omar</strong>A light, sourwheat dough with roasted walmuns and freshly picked rosmary, thyme,poppy,seeds</p>
+        <div class="c3">03</div>
+        </div>
+    </div>
+    <div class="categories">
+        <h1 class="t">Categories</h1>
+        <center><h2 class="co">please call at last 24 hours in advance for catering orders</h2> </center>
+        <img class="f" src="/images/images/food-1.webp" alt="">
+        <img class="s" src="/images/images/food-2.webp" alt="">
+        <img class="th" src="/images/images/food-5.webp" alt="">
+        <img class="fo" src="/images/images/food-3.webp" alt="">
+    </div>
+    <h1 class="menu">Menu</h1>
+    <div class="food">
+        <div class="pizza">
+            <h1>Pizza</h1><br>Lorem ipsum <br>dolor sit amet consectetur, adipisicing elit<br>. Deserunt reprehenderit, dolorem nihil excepturi,<br> repellendus eaque ea voluptatibus quo totam omnis sed<br> necessitatibus assumenda distinctio dignissimos! Fugiat voluptas nihil cumque fuga.
+        </div>
+        <div class="salad">
+            <h1>salad</h1><br>Lorem ipsum <br>dolor sit amet consectetur, adipisicing elit<br>. Deserunt reprehenderit, dolorem nihil excepturi,<br> repellendus eaque ea voluptatibus quo totam omnis sed<br> necessitatibus assumenda distinctio dignissimos! Fugiat voluptas nihil cumque fuga.
+        </div>
+        <div class="desert">
+            <h1>desert</h1><br>Lorem ipsum <br>dolor sit amet consectetur, adipisicing elit<br>. Deserunt reprehenderit, dolorem nihil excepturi,<br> repellendus eaque ea voluptatibus quo totam omnis sed<br> necessitatibus assumenda distinctio dignissimos! Fugiat voluptas nihil cumque fuga.
+        </div>
+    </div>
+    <div class="picture">
+        <img class="pi" src="/images/images/food-6.webp" alt="">
+        <img class="sa" src="/images/images/food-7.webp" alt="">
+        <img class="de" src="/images/images/food-8.webp" alt="">
+    </div>
+    <h1 class="team">Team</h>
+      <div class="picture2">
+        <div class="m1"><img src="/images/images/member-1.webp" alt="">
+         <div class="cono">Connor Quinn</div>
+        </div>
+    
+        <div class="m2"><img src="/images/images/member-2.webp" alt="">
+        <div class="samule">Samuel Schick</div>
+        </div>
+    
+        <div class="m3"><img src="/images/images/member-3.webp" alt="">
+            <div class="fred">Fred Morrisson</div>
+        </div>
+    
+        <div class="m4"><img src="/images/images/member-4.webp" alt="">
+        <div class="celia">Celia Almeda</div>
+        </div>
+      </div>
+        <div class="final">
+            <div class="lo"><h1>location</h1><br>Omar Ahmed OMar Ramdan Mostafa 55@gmail</div>
+            <form class="form">
+                <label >contact us</label>
+                <br>
+                <input type="text" placeholder="username" required>
+                <br>
+                <input type="email" placeholder="emal" required>
+                <br>
+                <input type="date"  required>
+                <br>
+                <textarea name="" id="" cols="40" rows="15" placeholder=""></textarea>
+                <br>
+                <input class="send" type="submit">
+                <br> 
+                <div class="link1">
+                    <a href="/index.html">^</a>
+                </div>
+            </form>
+        </div >
+        
+   </body>
+</html>
+                                  <Css>
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    width: 180px;
+    margin-top:auto;
+}
+.home{
+   
+    transform: skew(0deg,-11deg);
+    z-index:-1;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(222, 238, 131);
+    font-size: 40px;
+    margin: 10px;
+}
+.links{
+   
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 75px;
+    right: -81px;
+}
+
+.header{
+    display: flex;
+    position: absolute;
+    font-size: 61px;
+    color: hsl(50deg 27% 83%);
+    margin: 13px;
+    z-index: 1;
+    line-height: 60px;
+    margin: 0;
+    border-radius: 28%;
+    width: 30;
+    height: 30;
+    border: solid 4px hsl(60deg 100% 50%);
+    text-align: center;
+    top: 345px;
+    right: 1100px;
+    border-bottom: transparent;
+    border-top: transparent;
+
+}
+.title{
+    font-size: 40px;
+    margin: 60px;
+    text-align: center;
+    margin: 50px;
+}
+
+.categories{
+    background-image:url("/images/images/categories-bg.webp");
+    background-size: cover;
+    color: azure;
+}
+.categories img{
+    margin: 80px;
+    border-radius: 48%;
+    width: 300px;
+    height: 300px;
+}
+.t::selection{
+    background-color: black;
+}
+.co::selection{
+    background-color: black;
+}
+.f:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+}
+.s:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+}
+.th:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+}
+.fo:hover{
+    transform: rotate(360deg);
+    transition: 3s;
+}
+.menu{
+    color: hsl(0deg 0% 0%);
+    font-size: 42px;
+    margin: 30px;
+}
+.food{
+    display: flex;
+    margin: -1px;
+    justify-content: space-between;   
+}
+.pizza,.salad,.desert{
+    width: 300px;
+    height: 200px;
+}
+.picture{
+    display: flex;
+    margin: 2px;
+    justify-content: space-between
+}
+.pi,.sa,.de{
+    border-radius: 15%;
+    width: 500px;
+    height: 550px;
+}
+.pi:hover{
+    width: 700px;
+    height: 600px;
+    margin: -80px;
+    transition:1s;
+}
+.sa:hover{
+    width: 700px;
+    height: 600px;
+    margin: -80px;
+    transition:1s;
+}
+.de:hover{
+    width: 700px;
+    height: 600px;
+    margin: -80px;
+    transition:1s;
+}
+.team{
+    text-align: center;
+    font-size: 60px;
+    margin: 50px;
+}
+.team:hover{
+    color: black;        
+}
+.picture2{
+    display: flex;
+    margin: 2px;
+    justify-content: space-between;
+}
+.cono{
+    background-color:yellow;
+    color: aliceblue;
+}
+.samule{
+    background-color:yellow;
+    color: aliceblue;
+}
+.fred{
+    background-color:yellow;
+    color: aliceblue;
+}
+.celia{
+    background-color:yellow;
+    color: aliceblue;
+}
+.m1:hover{
+    width: 500px;
+    height: 600px;
+    margin: -80px;
+    transition:1s;
+}
+.m2:hover{
+    width: 500px;
+    height: 600px;
+    margin: -80px;
+    transition:1s;
+}
+
+.m3:hover{
+    width: 500px;
+    height: 600px;
+    margin: -80px;
+    transition:1s;
+}
+
+.m4:hover{
+    width: 500px;
+    height: 600px;
+    margin: -80px;
+    transition:1s;
+}
+.final{
+    display: flex;
+    margin: 2px;
+    justify-content: space-between;
+}
+.t{
+    text-align: center;
+}
+.menu{
+    text-align: center;
+    font-size: 40px;
+}
+.pizza{
+    border-top:solid yellow;
+
+}
+.salad{
+    border-top:solid yellow;
+    
+    
+}
+.desert{
+    border-top:solid yellow;
+    
+}
+.link1{
+    transition: 4s;
+    border-radius: 25%;
+    width: 62px;
+    height: 66px;
+    background-color: hsl(51deg 100% 50%);
+    right: 0
+}
+
+::-webkit-scrollbar-track{
+    background-color: gold;
+}
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+    height: 400px;
+}
+.c1,
+.c2,
+.c3{
+    background-color: yellow;
+    width: 300px;
+    height: 336px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    font-size: 150px;  
+    transition: 2s;
+    transition-timing-function: ease-in-out;
+    z-index: 1;
+    padding: 100px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 50px black;
+}
+.c1:hover,
+.c2:hover,
+.c3:hover{
+    padding: 0px;
+    height: 20px;
+    font-size: 20px;
+    transform: translateX(0px) translateY(280px)
+}
+p{
+    z-index: -1;
+    position: absolute;
+    font-size: x-large;
+    width: 300px;
+    height: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px yellow; 
+    border-radius: 6px;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 20px;
+  }
+   
+@media (min-width:768px){
+    .header{
+        text-align: center;
+        margin: -434px;
+        margin-top: -73px;
+        margin-right: -400px;
+    }
+
+}
+a:hover{
+    color: black;
+}
+.pizza::selection{
+    background-color: gold;
+}
+.salad::selection{
+    background-color: gold;
+}
+.desert::selection{
+    background-color: gold;
+}
+h1.food::selection{
+    background-color: gold;
+}
